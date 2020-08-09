@@ -1,0 +1,70 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.fa{
+  color: white;
+}
+div {
+  width: 57.6%; height: 60%; float: left; 
+  border:red outset;
+  display:flex;
+}
+#Angrybirds{
+  font-family:'Notable', sans-serif;
+  color:red;
+  background-color:lightsalmon;
+  padding:10px;
+  bottom:-20px;
+  position:relative;
+}
+.navigation{
+  text-align:left;
+  background-color:#233067 ;
+  padding:20px 20px;
+  top:-107.3px;
+  position:relative;
+  list-style:none;
+}
+.navigation>li{
+  display:inline-block;
+  padding-right:50px;
+  font-family:'Do Hyeon', sans-serif;
+  font-size:17px;
+}
+.navigation>li>a{
+  color:white;
+  text-decoration:none;
+}
+.navigation>li>a:hover{
+  color:red;
+  font-size:19px;
+  transition-duration:2s;
+}
+
+
+.signup{  
+  bottom:-550px;
+  position:relative;
+  right:10px;
+  float:center;
+  text-align:center;
+  font-size:30px;
+}
+
+input[type=text]{
+border-radius:150px;
+height:28px;
+width:200px;
+}
+input[type=email]{
+border-radius:150px;
+height:28px;
+width:200px;
+}
+input[type=tel]{
+border-radius:150px;
+height:28px;
+width:200px;
+}

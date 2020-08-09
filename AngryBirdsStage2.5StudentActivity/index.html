@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+  <link href="https://fonts.googleapis.com/css2?family=Holtwood+One+SC&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Notable&display=swap" rel="stylesheet">;
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script> 
+  <title>Welcome to My Website!</title>
+  <h1>Welcome!</h1>
+ 
+  
+  <ul class="navigation">
+    <li><img src="images/circle-cropped.png" class="logo" ></li>
+    <li><a href="index.html"><i class="fa fa-home"></i>  Home</a></li>
+    <li><a href="about.html"><i class="fa fa-user"></i>  About Me</a></li>
+    <li><a href="games.html"><i class="fa fa-gamepad"></i>  My Games</a></li>
+    <li><a href ="#"><i class="fa fa-envelope"></i> Contact Me</a></li>
+    <li><a href="signup.html"><i class="fa fa-pencil-square"></i>  Sign Up</a></li>
+    
+  </ul>
+
+  <h2 id="Heading">
+    Welcome to <br>
+    <i class="fa fa-hand-o-right"></i>
+    My First Website!
+    <i class="fa fa-hand-o-left"></i>
+  </h2>
+  <img src="https://i.postimg.cc/rFnyCRjy/pajaro.gif" id="bird1" class="bird">
+
+<style>
+  .fa{
+    color: white;
+  }
+  .bird{
+    position:relative;
+    top:-600px;
+  }
+  #bird1{
+    
+    animation:fly 6s infinite;
+  }
+  @keyframes fly {
+  0%   {
+    left:100%;
+    
+        }
+  100% {left:-110px;}
+}
+  
+  .logo{
+    padding: 0px;
+    width: 35px;
+    height: 35px;
+  }
+  #Heading {
+    color:lightsalmon;
+    padding: 104px 100px;
+    text-align: center;
+    font-size:80px;
+    font-family:georgia,garamond,serif;
+    
+  }
+  #Welcome{
+    text-align:center;
+    top: 0px;
+    position:relative;
+    color:lightsalmon;
+    font-family:'Notable', sans-serif;
+  }
+  #para{
+    color:lightgreen;
+    padding:25px 164px;
+    font-size:20px;
+    text-align:center;
+    font-family:georgia,garamond,serif;
+    border:2px solid red;
+    background-color:#800000;   
+  }
+  #listid{ 
+    font-size:40px;
+    color:red;
+  }
+  .navigation{
+    text-align:left;
+    background-color:#233067 ;
+    padding:20px 20px;
+    top:-107.3px;
+    position:relative;
+    list-style:none;
+  }
+  .navigation>li{
+    display:inline-block;
+    padding-right:50px;
+    font-family:'Do Hyeon', sans-serif;
+    font-size:17.5px;
+    align-items: center;
+  }
+  .navigation>li>a{
+    color:white;
+    text-decoration:none;
+  }
+  .navigation>li>a:hover{
+    color:red;
+    font-size:18.8px;
+    transition-duration:1.2s;
+  }
+  #blog{
+    color:lightpink;
+    font-family: 'Holtwood One SC', serif;
+    
+  }
+  #blog:hover{
+    background-color:green
+  }
+  #site:hover{
+    background-color:lightsalmon;
+  }
+  #yt:hover{
+    background-color:lightskyblue;
+    
+  }
+  #youtube{
+    color:lightsalmon;
+    font-family: 'Holtwood One SC', serif;
+  }
+  #ytbutton{
+    background-color: #4CAF50;
+    border-radius:10px;
+    color:white;
+    height:50px;
+    width:100px;
+    font-family:georgia,garamond,serif;
+    right:-600px;
+    top:-65px;
+    font-size:10.3px;
+    font-family:'Holtwood One SC', serif;
+    position:relative;
+  }
+  #sitebutton{
+    background-color: #b80a00;
+    border-radius:10px;
+    color:white;
+    height:50px;
+    width:110px;
+    font-family:georgia,garamond,serif;
+    right:-600px;
+    top:-62px;
+    font-size:10.3px;
+    font-family:'Holtwood One SC', serif;
+    position:relative;
+  }
+  #blogbutton{
+    background-color: #007bbe;
+    border-radius:10px;
+    color:white;
+    height:50px;
+    width:110px;
+    font-family:georgia,garamond,serif;
+    right:-600px;
+    top:-67px;
+    font-size:10.3px;
+    font-family:'Holtwood One SC', serif;
+    position:relative;
+  }
+  #site{
+    font-family:'Holtwood One SC', serif;
+    color:red;
+  }
+  #body{
+    background-image: url("https://wallpaperplay.com/walls/full/3/e/9/237039.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  }
+
+  </style>
+<body id="body">
+  <div>
+    <hr>
+    <p id="para" > Hello. My name is Souritro Kar. I study in Grade 8, and this website
+      is my first Website created using HTML 5. You can check out the things I have done, 
+        throughout this website!
+    </p>
+    <hr>
+  </div> 
+
+  <hr>
+  <ul id="listid">
+  <ul id="blog">
+    <li> <a href="https://souritrakar.com/"> My Blog</li></a><a href="https://souritrakar.com/"><button id="blogbutton">Click to see Blog!</button></a>
+  </ul>
+    <ul id = "yt">
+      <li id="youtube"> <a href="https://www.youtube.com/channel/UCyP1zOPhlI1kexHVucoSmJQ?view_as=subscriber/"> My Youtube Channel</li></a>  <a href="https://www.youtube.com/channel/UCyP1zOPhlI1kexHVucoSmJQ?view_as=subscriber/button id="><button id="ytbutton">Click to go to Channel!</button></a>
+     
+  
+    </ul>
+    <ul id ="site">
+       <li> <a href="https://souritrakar.whjr.site/"> My Site</li></a><a href="https://souritrakar.whjr.site/"><button id="sitebutton">Click to see Site!</button></a>
+      </ul>
+    </ul>
+    <hr>
+</body>
+</html>

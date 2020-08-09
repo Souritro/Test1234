@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Holtwood+One+SC&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Notable&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script> 
+    <title>About Me</title>
+    <h1 id="titleabt">About Me:</h1>
+    
+</head>
+<style>
+    #titleabt{
+        text-align:center;
+        font-size:90px;
+        font-family:'Fjalla One', sans-serif;
+        color:lightseagreen;
+        
+        animation:animate 4s infinite;
+        position:relative;
+        
+    }
+    @keyframes animate{
+        
+      
+        50%{
+            top:40px;
+            animation-delay:0.05s;
+        }
+       75%{
+           bottom:-40px;
+           animation-delay:0.05s;
+       }
+       
+        100%{
+            top:-0px;
+            animation-delay:0.05s;
+        }
+    }
+    #paragraph{
+        text-align:center;
+        font-size:40px;
+        font-family:'Do Hyeon', sans-serif;
+    }
+    .fa{
+       float:none;
+       size:70px;
+       position:relative;
+       animation:fas 2s infinite;
+       animation-delay:0.5s;
+    }
+    @keyframes fas{
+        50%{
+            bottom:-5px;
+            
+        }
+        75%{
+            top:-3px;
+        }
+        
+        100%{
+            top:-2px;
+        }
+    }
+    ::selection {
+     color: red;
+    background:palevioletred;
+    }
+    #strong{
+        color:red;
+    }
+    #strong3{
+        color:lightsalmon;
+    }
+    #piano{
+        color:lightskyblue
+    }
+    #violin{
+        color:lime
+    }
+    .logo{
+        position:relative;
+        right:-855px;
+        top:-14px;
+    }
+    
+</style>
+<body>
+    <div id="boxcontainer">
+    <p id="paragraph">
+        Hi, I am Souritra Kar.<br>
+        I study in Grade 8, in South City<br> International School.
+        I know a bit of few languages, like<br>
+        <span> <i class="fa fa-desktop"></i></span><strong id="strong"> JavaScript</strong> and <strong id="strong3">HTML CSS</strong><span><span> <i class="fa fa-desktop"></i></span>,<br>
+        though they are mark-up languages. I also like to play football,<br>
+        and musical instruments like the <strong id="piano">Piano</strong> &<strong id="violin">Violin</strong><br>
+        And I almost forgot, I am a boy, if you hadn't <br>
+        guessed by the name. Sorry, no<br>
+        picture.
+       
+    </p>
+    <img src="images/circle-cropped.png" class="logo" ></li>
+</div>
+    
+</body>
+</html>
